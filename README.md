@@ -27,3 +27,20 @@ https://sparkbyexamples.com/spark/spark-rdd-vs-dataframe-vs-dataset/
  
 RDD Actions and transformations: 
 ![img_2.png](imgs/img_2.png)
+
+### Dataframes
+
+- Row objects
+- Run SQL queries
+- Has a schema
+- Read and write Json, Hive, parquet, CSV or external databases
+- Support a wide range of operations and transformations, such as filtering, aggregating, joining, and grouping data.
+
+### Dataset
+
+- Can only be used in compiled languages (Java and Scala)
+- Faster detection of errors and better optimization 
+- RDD can be converted to Dataset with .toDS()
+
+"Spark's machine learning library and spark streaming engine use Datasets as their primary API instead of RDD's."
+

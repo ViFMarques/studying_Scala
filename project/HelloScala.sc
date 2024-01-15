@@ -49,3 +49,10 @@ while (x >= 0) {
 def squareIt(x: Int): Int = {
   x * x
 }
+
+// Creating a SparkSession
+import org.apache.spark.sql.SparkSession
+val spark = SparkSession.builder()
+  .appName("example")
+  .master("local[*]")
+  .getOrCreate()
