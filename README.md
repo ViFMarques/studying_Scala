@@ -26,6 +26,7 @@ https://pt.linkedin.com/pulse/apache-spark-rdd-vs-dataframe-dataset-jose-r-f-jun
 https://sparkbyexamples.com/spark/spark-rdd-vs-dataframe-vs-dataset/
  
 RDD Actions and transformations: 
+
 ![img_2.png](imgs/img_2.png)
 
 ### Dataframes
