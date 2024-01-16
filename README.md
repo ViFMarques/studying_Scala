@@ -5,7 +5,7 @@
 - Fast
 - Scalable
 - 100x faster than Hadoop Map reduce
-- DAG engine >> optimizes work
+- DAG engine >>> optimizes work
 - Used by Amazon, Ebay, Nasa, Yahoo
 - Code in Python, Scala and Java
 - SQL with Datasets and Dataframes
